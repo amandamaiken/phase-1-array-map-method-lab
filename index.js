@@ -35,3 +35,9 @@ function titleCased() {
 titleCased(tutorials); // function call - tells the program, do this
 // whatever is passed into the function call is the argument
 
+/* 
+const titleCased = () => {
+  return tutorials.map(el => el.split(' ')).map(el2 => el2.map(el3 => el3.charAt(0).toUpperCase() + el3.slice(1)).join(' '))
+}
+*/
+
